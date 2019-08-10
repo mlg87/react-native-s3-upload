@@ -103,5 +103,5 @@ export class Request {
   }
 }
 
-Request.FormData = FormData
-Request.XMLHttpRequest = XMLHttpRequest
+Request.FormData = require('FormData')
+Request.XMLHttpRequest = require('XMLHttpRequest')
